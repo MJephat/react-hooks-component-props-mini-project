@@ -8,10 +8,7 @@ function About(props){
             <img src={props.imagePath} alt ={props.imageAlt} />
             <p>{props.text}</p>
             </aside>
-           
-           
-
-        </div>
+           </div>
     )
 }
 export default About; 

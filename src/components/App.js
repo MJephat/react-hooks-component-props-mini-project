@@ -11,7 +11,7 @@ function App() {
     <div className="App">
        <Header name="Underrated"/>
        <main>
-      <About imagePath="https://via.placeholder.com/215" text="A blog about learning React" imageAlt="blog logo"/>
+      <About imagePath="https://images.unsplash.com/photo-1516192518150-0d8fee5425e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80" text="A blog about learning React" imageAlt="blog logo"/>
       <ArticleList articles={data.posts}/>
       </main>
       
