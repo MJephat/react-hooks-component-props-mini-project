@@ -6,8 +6,9 @@ function About(props){
         <div>
             <aside>
             <img src={props.imagePath} alt ={props.imageAlt} />
-            </aside>
             <p>{props.text}</p>
+            </aside>
+           
            
 
         </div>
